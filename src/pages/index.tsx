@@ -15,6 +15,13 @@ import { stripe } from "../services/stripe";
 // Conteudo (SSG)
 // Comentarios (Client-side)
 
+
+//ESTRATÉGIAS DE AUTENTICAÇÃO NEXT
+// JSW (Refresh)
+// Next Auth (Social, independe de ter um backend )
+// Cognito, Auth0
+
+
 interface HomeProps {
   product: {
     priceId: string;
