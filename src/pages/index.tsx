@@ -6,8 +6,8 @@ import styles from "./home.module.scss";
 import { stripe } from "../services/stripe";
 
 //CHAMADAS VIA NEXT PARA POPULAR UMA PAGINA COM INFORMAÇÕES
-//  Client-side - Não precisa indexção, ação do usuário
-//  Server-side - dados dinamibos da seção do usuário, contexto da requisição,
+//  Client-side - Não precisa indexação, ação do usuário
+//  Server-side - dados dinamicos da seção do usuário, contexto da requisição,
 //  Static Site Generation - PAGINAS COMUNS PARA TODA A APLICAÇÃO, BLOG, posts
 
 
